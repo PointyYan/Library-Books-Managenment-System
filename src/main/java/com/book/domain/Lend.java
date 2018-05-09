@@ -9,6 +9,7 @@ import java.util.Date;
  * @Modified By:
  */
 public class Lend extends BaseDomain {
+
     private long sernum;
     private long bookId;
     private int readerId;
