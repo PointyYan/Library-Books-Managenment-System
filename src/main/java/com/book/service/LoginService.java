@@ -6,6 +6,7 @@ import com.book.dao.ReaderInfoDao;
 import com.book.domain.ReaderCard;
 import com.book.domain.ReaderInfo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 /**
  * @Author: VaporYan
@@ -13,6 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  * @Date: Created in 9:56 2018/5/9
  * @Modified By:
  */
+@Service
 public class LoginService {
 
     private ReaderCardDao readerCardDao;
